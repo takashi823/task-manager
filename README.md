@@ -27,6 +27,16 @@ npx tailwindcss init -p
 @tailwind utilities;
 
 ## tanstack router
+## 参考：https://tanstack.com/router/latest/docs/framework/react/quick-start
 npm install @tanstack/react-router
+npm install -D @tanstack/router-plugin @tanstack/router-devtools
+
+- vite.config.tsに設定を追加
+
+mkdir src/routes 
+touch src/routes/__root.tsx
+→修正あり
+
+touch src/routes/index.lazy.tsx
 
 ```
